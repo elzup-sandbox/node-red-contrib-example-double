@@ -1,0 +1,22 @@
+<script type="text/javascript">
+  RED.nodes.registerType('example-double', {
+    category: 'function',
+    color: '#333333',
+    inputs: 1,
+    outputs: 2,
+    label: function () {
+      return this.name || "example double'"
+    },
+  })
+</script>
+
+<script type="text/x-red" data-template-name="example-double">
+  <div class="form-row">
+      <label for="node-input-name"><i class="icon-tag"></i> Name</label>
+      <input type="text" id="node-input-name" placeholder="Name">
+  </div>
+</script>
+
+<script type="text/x-red" data-help-name="example-double">
+  <p>Description</p>
+</script>

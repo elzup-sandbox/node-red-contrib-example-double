@@ -1,0 +1,21 @@
+{
+  "name": "node-red-contrib-example-double",
+  "version": "0.0.1",
+  "description": "",
+  "author": "",
+	"scripts": {
+		"test": "mocha \"test/**/*_spec.js\""
+	},
+  "dependencies": {
+    "node-red": "^2.0.6",
+    "node-red-node-test-helper": "^0.2.7"
+  },
+  "keywords": [
+    "node-red"
+  ],
+  "node-red": {
+    "nodes": {
+      "example-double": "example-double.js"
+    }
+  }
+}
